@@ -1,4 +1,4 @@
-import { config } from '../../lib/constants';
+import { config } from './constants';
 
 $(document).ready(() => {
   let isUpvoteClicked = false;
