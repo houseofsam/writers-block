@@ -1,5 +1,3 @@
-import { config } from '../../lib/constants';
-
 $(document).ready(() => {
   let isUpvoteClicked = false;
   let isDownvoteClicked = false;
@@ -21,7 +19,7 @@ $(document).ready(() => {
     $(this).css("color", "red");
     // change the opposite arrow to purple
     $(this).siblings(".fa-chevron-down").css("color", "#942636");
-    $.post(`${${config.SERVER_URI}}/contributions/${contributionID}/upvote`).then(
+    $.post(`${config.SERVER_URI}/contributions/${contributionID}/upvote`).then(
       () => {
         // Get current count value and increment
         let currentVoteCount = Number(
@@ -61,7 +59,7 @@ $(document).ready(() => {
     // change the opposite arrow to purple
     $(this).siblings(".fa-chevron-up").css("color", "#942636");
     $.post(
-      `${${config.SERVER_URI}}/contributions/${contributionID}/downvote`
+      `${config.SERVER_URI}/contributions/${contributionID}/downvote`
     ).then(() => {
       // Get current count value and increment
       let currentVoteCount = Number(
