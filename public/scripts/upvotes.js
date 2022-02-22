@@ -1,4 +1,4 @@
-import { configs } from './config';
+import { config } from './config';
 
 $(document).ready(() => {
   let isUpvoteClicked = false;

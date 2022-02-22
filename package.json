@@ -1,6 +1,7 @@
 {
   "name": "node-skeleton",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "server.js",
   "engines": {

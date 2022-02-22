@@ -1,4 +1,4 @@
-const configs = {
+const config = {
   development: {
     SERVER_URI: 'localhost:5000',
   },
@@ -7,4 +7,4 @@ const configs = {
   },
 };
 
-export { configs };
+export { config };
