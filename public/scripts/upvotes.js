@@ -1,3 +1,5 @@
+import { config } from '../../lib/constants';
+
 $(document).ready(() => {
   let isUpvoteClicked = false;
   let isDownvoteClicked = false;

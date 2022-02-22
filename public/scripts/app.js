@@ -141,7 +141,7 @@ const loadStory = function() {
 
       // !!! ^^^
       $(".full-contribution-container").addClass('hidden')
-      console.log('userID------>', userID)
+      // console.log('userID------>', userID);
 
       if (response.story_author_id === userID) {
         if (response.is_complete) {
