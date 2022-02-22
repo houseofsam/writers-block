@@ -1,5 +1,3 @@
-const config = require('./config');
-
 $(document).ready(() => {
   let isUpvoteClicked = false;
   let isDownvoteClicked = false;
